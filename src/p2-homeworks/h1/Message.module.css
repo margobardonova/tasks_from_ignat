@@ -1,0 +1,49 @@
+.message {
+    display: flex;
+    /*сообщения расположены внизу*/
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: #1f3e20;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    /*последний 0 говорит о степени размытия*/
+    background: radial-gradient(circle at 0 0, transparent 15px, #1f3e20 0);
+}
+
+.message {
+    min-width: 150px;
+    max-width: 300px;
+    /*если текст слишком длинный, чтобы переносился на новую строку*/
+    word-wrap: break-word;
+    color: white;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b4a6ff;
+}
+
+.time {
+    display: flex;
+    /*текст к правой стороне*/
+    justify-content: flex-end;
+    color: #3c7f4b;
+    font-weight: bold;
+}
+
+

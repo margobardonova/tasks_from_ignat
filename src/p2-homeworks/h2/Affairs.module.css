@@ -1,0 +1,33 @@
+.button {
+margin: 20px;
+    width: 80px;
+    background: darkseagreen;
+    color: #1f3e20;
+    outline: none;
+}
+.button:focus {
+    outline: #003780 solid 1px;
+}
+.button:active {
+    background: burlywood;
+}
+.active {
+    background: #003780;
+}
+.affair {
+    display: flex;
+}
+.item {
+    margin: 10px;
+    width: 100px;
+}
+.high {
+    color: purple;
+}
+.middle {
+    color: coral;
+}
+
+.low {
+    color: lightblue;
+}
