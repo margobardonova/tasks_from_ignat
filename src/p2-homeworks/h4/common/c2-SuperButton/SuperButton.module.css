@@ -1,7 +1,20 @@
-.default {
-
-}
 
 .red {
     background: red;
+}
+.default {
+    position: relative;
+    background-color: darkseagreen;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.default:focus {
+    outline: purple solid 1px;
+}
+.default:active {
+    background: sandybrown;
+}
+.default:disabled {
+    color: #80103d;
 }
